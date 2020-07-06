@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Josefin+Sans&family=Playfair+Display&family=Raleway&display=swap');
+*{
+				box-sizing: border-box;
+}
+body{
+				margin: 0;
+				background-color: black;
+        scroll-behavior: smooth;
+				padding: 0;
+}
+@keyframes gradientp {
+ 0% {
+  background-position: 0%;
+ }
+ 100% {
+  background-position: 2000%;
+ }
+}
+.header{
+				position:relative;
+				height: auto;
+				width:auto;
+				padding: 20px;
+				text-align: center;
+}
+h1{background-image: radial-gradient(circle at center, #c33764, #1d2671, #a9f1df, #ffbbbb, #2e3192, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+ 		background-size: 2900%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	  animation-name: gradientp;
+ 		animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 900s;
+  font-family: 'Playfair Display', serif;
+    animation-iteration-count: infinite;
+ letter-spacing: 6px;
+ word-spacing: 5px;
+				text-align: center;
+				font-size:3em;}
+b{
+				font-size:2.8em;
+				background-image: radial-gradient(circle at center, #c33764, #1d2671, #a9f1df, #ffbbbb, #2e3192, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+ 		background-size: 2900%;
+    -webkit-background-clip: text;
+  font-family: 'Josefin Sans', sans-serif;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	  animation-name: gradientp;
+ 		animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    text-align: center;
+ letter-spacing: 6px;
+ word-spacing: 5px;
+}
+.story{
+ padding:30px;
+ height: auto;
+ width:100%;
+ text-align: left;
+ font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+	 background-image: radial-gradient(circle at center, #1bffff, #d4145a, #fbb03b, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #ea8d8d, #a890fd, #c6ea8d, #fe90af, #009245, #f3ee21, #ff5f6d, #ffc371, #6fd6ff, #4e65ff, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+		background-size: 4500%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	  animation-name: gradientp;
+ 		animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+}
+.footer {
+ text-align: center;
+ padding: 30px;
+ width:100%;
+ height: auto;
+ background-image: radial-gradient(circle at center, #1bffff, #d4145a, #fbb03b, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #ea8d8d, #a890fd, #c6ea8d, #fe90af, #009245, #f3ee21, #ff5f6d, #ffc371, #6fd6ff, #4e65ff, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+		background-size: 4500%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	  animation-name: gradientp;
+     font-family: 'Josefin Sans', sans-serif;
+ 		animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+ font-size: 20px;
+ }
+.footer a{
+ font-weight: bolder;
+  font-family: 'Josefin Sans', sans-serif;
+}

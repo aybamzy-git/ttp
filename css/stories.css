@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Josefin+Sans&family=Playfair+Display&family=Raleway&display=swap');
+*{
+				box-sizing: border-box;
+}
+body{
+				background-color: black;
+				color: white;
+				padding: 0;
+				margin: 0;
+}
+.header{
+		font-size: 3em;
+		position: relative;
+	  text-align: center;
+		font-weight: bold;
+		padding:30px;
+ font-family: 'Playfair Display', serif;
+		background-image: radial-gradient(circle at center, #c33764, #1d2671, #a9f1df, #ffbbbb, #2e3192, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+		background-size: 2900%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	  animation-name: gradientp;
+ 		animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+}
+@keyframes gradientp {
+ 0% {
+  background-position: 0%;
+ }
+ 100% {
+  background-position: 2000%;
+ }
+}
+.overall{
+ height: 100%;
+ width:100%;
+ position: relative;
+}
+.swiper-container {
+     position:relative;
+     width: 100%;
+     height: 100%;
+     margin-left: auto;
+     margin-right: auto;
+    background-color: black;
+    display:flex;
+    overflow-x: scroll;
+}
+.special{
+    width: auto;
+    height: auto;
+    background-image: radial-gradient(circle at center, #1bffff, #d4145a, #fbb03b, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #ea8d8d, #a890fd, #c6ea8d, #fe90af, #009245, #f3ee21, #ff5f6d, #ffc371, #6fd6ff, #4e65ff, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+		background-size: 4500%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	  animation-name: gradientp;
+ 		animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    border-right: 1px solid white;
+     -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-direction: column;
+}
+h3,p,a{
+    padding: 20px;
+    margin: 8px;
+    text-align: center;
+}
+h3{
+ font-size: 2.5em;
+ font-family: 'Playfair Display', serif;
+}
+p{font-size: 1.7em;
+ font-family: 'Josefin Sans', sans-serif;
+}
+@media only screen and (max-height: 480px) {
+         h{
+            font-size: 2em;
+         }
+         b{
+           font-size: 1.5em;
+ }
+ p{
+  font-size:1.8em;
+ }
+.special a{
+  font-size: 1.5em;
+ }
+      }
+b{
+  background-image: radial-gradient(circle at center, #1bffff, #d4145a, #fbb03b, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #ea8d8d, #a890fd, #c6ea8d, #fe90af, #009245, #f3ee21, #ff5f6d, #ffc371, #6fd6ff, #4e65ff, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+		background-size: 4500%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	  animation-name: gradientp;
+ 		animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+     font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3em;
+}
+.special a{font-size:1.4em;
+ border: 2px solid white;
+ font-family: 'Josefin Sans', sans-serif;
+}
+.footer{
+ font-size: 1.3em;
+		position: relative;
+	  -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+       font-family: 'Josefin Sans', sans-serif;
+      -webkit-align-items: center;
+      align-items: center;
+ justify-content: center;
+ line-height: 50px;
+		font-weight: bold;
+		padding:30px;
+		background-image: radial-gradient(circle at center, #c33764, #1d2671, #a9f1df, #ffbbbb, #2e3192, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+		background-size: 2900%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	  animation-name: gradientp;
+ 		animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+}
+.icons{
+ position:relative;
+height: auto;
+ width: 100%;
+ padding: 20px;
+ text-align: center;
+ }
+.icons p{
+ background-image: radial-gradient(circle at center, #c33764, #1d2671, #a9f1df, #ffbbbb, #2e3192, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+		background-size: 2900%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+	  animation-name: gradientp;
+ 		animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 900s;
+    font-size: 1.5em;
+    text-align: center;
+    animation-iteration-count: infinite;
+}
+.icons a{
+ color:white;
+ font-size:2em;
+ text-decoration: none;
+ outline: none;
+ text-align: center;
+ -webkit-box-align: center;
+ }
